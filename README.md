@@ -21,7 +21,8 @@ python3 hw4.py --data-folder public_test            # the runner, writes results
 | `diag.py` | prints, for every question, what was parsed, what was retrieved and why it abstained |
 | `make_figure.py` | draws `docs/pipeline.png` |
 | `results.csv` | the runner's output on `public_test` |
-| `REFLECTION.md` | Task 6: the reflection, as a standalone file |
+| `REFLECTION.pdf` | Task 6: the reflection, as a two-page PDF |
+| `REFLECTION.md` | the Markdown source of the reflection |
 
 `requirements.txt` pins `langchain-core` to the 0.3 line: the provided code imports `Document`
 from `langchain_core.documents`, which the 1.x line no longer exports, so an unpinned install
@@ -217,5 +218,6 @@ using.
 
 ## Reflection (Task 6)
 
-The reflection is in [REFLECTION.md](REFLECTION.md): the seven questions of Task 6, answered in
-order.
+The reflection is submitted as [REFLECTION.pdf](REFLECTION.pdf) (two pages); its Markdown source is
+[REFLECTION.md](REFLECTION.md) and it is built by `make_reflection_pdf.py`. It answers the seven
+questions of Task 6 in order.
