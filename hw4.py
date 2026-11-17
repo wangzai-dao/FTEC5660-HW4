@@ -33,7 +33,6 @@ load_dotenv()
 # Your code: add imports, constants and helper functions here.
 # =============================================================================
 
-import math
 from collections import Counter, defaultdict
 
 from bs4 import BeautifulSoup

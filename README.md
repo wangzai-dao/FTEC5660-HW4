@@ -22,6 +22,10 @@ python3 hw4.py --data-folder public_test            # the runner, writes results
 | `make_figure.py` | draws `docs/pipeline.png` |
 | `results.csv` | the runner's output on `public_test` |
 
+`requirements.txt` pins `langchain-core` to the 0.3 line: the provided code imports `Document`
+from `langchain_core.documents`, which the 1.x line no longer exports, so an unpinned install
+breaks the starter itself. The pins are the versions every number below was measured with.
+
 ---
 
 ## What the homework asked for
