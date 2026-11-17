@@ -1,6 +1,6 @@
 # FTEC5660 Homework 4 — the retrieval half of a RAG assistant over company reports
 
-Name: *(fill in)*   Student ID: *(fill in)*   Individual homework, due 1 December 2025, 23:59 HKT.
+Individual homework, due 1 December 2025, 23:59 HKT.
 
 The generator (`generate()` and its prompt) is fixed and given; everything that decides **what the
 generator sees** is in `hw4.py`: `table_to_text`, `chunk_document`, `parse_query`, `build_index` and
